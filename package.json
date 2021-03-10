@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "eslint": "eslint.",
+    "slint": "stylelint '**/*.css' ",
     "prettify": "prettier --write ."
   },
   "dependencies": {
@@ -25,6 +26,7 @@
     "eslint-plugin-react": "^7.22.0",
     "prettier": "2.2.1",
     "stylelint": "^13.12.0",
+    "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^21.0.0"
   }
 }
