@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "eslint": "eslint.",
-    "slint": "stylelint '**/*.css' ",
+    "stylelint": "stylelint '**/*.css' ",
     "prettify": "prettier --write ."
   },
   "dependencies": {
