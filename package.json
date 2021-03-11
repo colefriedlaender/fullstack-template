@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "nodemon",
+    "build": "npm run build-next && npm run build-storybook && npm run build-server",
+    "start": "NODE_ENV=production node build/index.js",
     "eslint": "eslint .",
     "stylelint": "stylelint '**/*.css' ",
     "prettify": "prettier --write .",
