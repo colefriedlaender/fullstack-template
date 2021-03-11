@@ -14,7 +14,9 @@
     "typecheck": "tsc",
     "test": "npm run eslint && npm run stylelint && npm run prettycheck && npm run typecheck",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-next": "next build",
+    "build-storybook": "build-storybook",
+    "build-server": "tsc --project tsconfig.server.json"
   },
   "dependencies": {
     "next": "10.0.8",
